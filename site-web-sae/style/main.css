@@ -144,11 +144,27 @@ button:hover {
 .groupe > div:first-child{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     
     padding: 10px ;
 }
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown >img{
+    padding-left: 5px;
+}
+
+.groupe img:hover{
+    cursor:pointer;
+}
+
 .groupe > div:first-child:hover{
-    cursor: pointer;
+    cursor:default;
 }
 
 .groupe > div:last-child{
@@ -162,6 +178,31 @@ button:hover {
 .groupe hr {
     border-color: grey;
 }
+
+.pen{
+    width: 15%;
+}
+
+.engrenage{
+    width: 18px;
+}
+
+.eleve > span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eleve > span:last-child{
+    justify-content: center;
+}
+
+.plus{
+    width: 1.125em;
+    border: #000000 0.15em solid;
+    border-radius: 15%;
+    padding: 0.4em;
+}
+
 
 
 /*--------------------- carousel  -------------- */
@@ -243,4 +284,17 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
+/*--------------------- Accueil  -------------- */
+.description_jeu{
+    display: flex;
+}
+
+.description_jeu >*{
+    padding: 10px;
+}
+
+.banner_space{
+    width: 85%;
+}
+
 

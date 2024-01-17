@@ -3,7 +3,7 @@ require_once('../model/DAO.class.php');
 //require_once('../model/Prof.class.php');
 require_once('../framework/view.class.php');
 
-//ajout des fonctions de Prof.class.php pour récupérer le professeur connecté dans la base de données ici
+//ajout des fonctions de Prof.class.php pour se connecter au serveur et récupérer le professeur connecté dans la base de données ici
 //et remplacer les valeurs des variables ci dessous 
 $login = "default";
 $nom = "default";
