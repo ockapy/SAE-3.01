@@ -81,17 +81,21 @@ main form{
 }
 
 form div {
-    margin: 40px;
-    display: flex;
+  margin: 40px;
+  display: flex;
 }
 
 form div input{
     margin-right: 15px;
 }
 
+.fin {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
 
-
-form div+label+button{
+form>button{
   margin-top: 15px;
   margin-left: 33%;
   margin-bottom: 10px;
