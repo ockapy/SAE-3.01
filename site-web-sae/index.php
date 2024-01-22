@@ -26,7 +26,7 @@ switch($submit) {
     if (($login == 'vivarat') && ($password == '1')) {
       $_SESSION['login'] = $login;
       // Charge la page de l'application
-      include("./controler/acceuil.ctrl.php");
+      include("view/main.view.php");
       // Sort du switch après la connexion réussie
       break;
     } else {
