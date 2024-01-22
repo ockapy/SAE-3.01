@@ -22,7 +22,7 @@
     </header>
     <main>
         <div >
-            <h1>Bienvenue dans [nom du jeu]</h1>
+            <h1>Bienvenue dans The Game</h1>
             <img src="../img/banner_space.jpeg" class="banner_space">
             <div class="description_jeu">
                 <div>
