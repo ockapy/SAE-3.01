@@ -265,6 +265,11 @@ button:hover {
     justify-content: center;
 }
 
+.flex > div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .card {
     width: 250px;
     padding: 20px;
@@ -295,6 +300,23 @@ button:hover {
 
 .banner_space{
     width: 85%;
+}
+/*------------------------- Suppression --------------------------- */
+.suppression {
+    color: #f00;
+    border: 1px solid #f00;
+    background-color: transparent;
+    margin: 20px 20px 20px 20px;
+}
+
+.suppression:hover {
+    color: #fff;
+    border-color: transparent;
+    background-color: #f00;
+}
+
+.changeGroupe {
+    margin-top: 20px;
 }
 
 
