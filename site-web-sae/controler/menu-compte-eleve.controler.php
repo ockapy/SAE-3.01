@@ -10,6 +10,7 @@ $nom = "default";
 $prenom = "default";
 $profRef = "default";
 $mdp =  "default";
+$groupe =  "default";
 
 
 
@@ -19,5 +20,6 @@ $view = new View();
 $view->assign('login', $login);
 $view->assign('profRef', $profRef);
 $view->assign('mdp', $mdp);
+$view->assign('groupe', $groupe);
 $view->display('menu-compte-eleve.view.php');
 ?>
