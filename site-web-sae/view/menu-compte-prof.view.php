@@ -40,8 +40,11 @@
           <input type="password" name="mdp" id="password" value="<?=$mdp?>">
           <button type="modifMdp">Changer de mot de passe</button>
         </div>
+        <div class="fin">
           <label for="eye"><input type="checkbox" onchange="eyeOFF()" name="" id="eye"><span>voir le mot de passe</span></label>
-          <button class="button-45" type="suppCompte">Supprimer le compte</button>
+          <a href="../view/consentement.view.php">Modifier mes préférences</a>
+        </div>
+        <button class="button-45" type="suppCompte">Supprimer le compte</button>
       </form>
     </main>
     <footer>

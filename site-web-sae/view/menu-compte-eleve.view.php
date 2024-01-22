@@ -35,7 +35,10 @@
           <label> Mot de passe : <input type="password" name="mdp" value="<?=$mdp?>" id="password"> </label>
           <button type="modifMdp">Changer de mot de passe</button>
         </div>
-        <label for="eye"><input type="checkbox" onchange="eyeOFF()" name="" id="eye"><span>voir le mot de passe</span></label>
+        <div class="fin">
+          <label for="eye"><input type="checkbox" onchange="eyeOFF()" name="" id="eye"><span>voir le mot de passe</span></label>
+          <a href="../view/consentement.view.php">Modifier mes préférences</a>
+        </div>
       </form>
     </main>
     <footer>
