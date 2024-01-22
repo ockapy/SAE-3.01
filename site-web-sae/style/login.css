@@ -46,3 +46,9 @@ span {
     font-size:small;
     margin-top: 5px;
 }
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
