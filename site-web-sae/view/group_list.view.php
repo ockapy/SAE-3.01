@@ -10,13 +10,15 @@
     <header>
         <div></div>
         <nav>
-            <a  href="#">Accueil</a>
-            <a id="playbutton" href="#">Jouer !</a>
-            <a  href="#">Statistiques</a>
-            <a class="selected" href="">Groupes</a>
-            <a href="#">Mon compte</a>
+            <a  href="acceuil.ctrl.php">Accueil</a>
+            <a id="playbutton" href="scenario.ctrl.php">Jouer !</a>
+            <a href="statistiques.ctrl.php">Statistiques</a>
+            <a class="selected">Groupes</a>
+            <a href="menu-compte-prof.controler.php">Mon compte</a>
         </nav>
-        <form action=""><button type="submit">Se Déconnecter</button></form>
+        <form action="../logout.php" method="post">
+            <button type="submit" name="submit" value="logout">Logout</button>
+        </form>
     </header>
     <main>
 
@@ -31,7 +33,7 @@
         <!-- à générer avec PHP -->
         <div class="groupe">
             <div>
-               <span>Groupe 1 <a href="" title="Éditer le groupe"> <img src="../img/pen.png" class="pen"> </a></span>
+               <span>Groupe 1 <a href="groupe_option.ctrl.php" title="Éditer le groupe"> <img src="../img/pen.png" class="pen"> </a></span>
                <span class="dropdown">x membres  <img onclick="display(event)" src="../img/arrowdropdown.png"> </span>
             </div>
 
@@ -40,13 +42,13 @@
                 <hr>
                 <span>eleve 2 <a href=""> <img src="../img/engrenage.png" class="engrenage"> </a></span>
                 <hr>
-                <span><a href="" title="Créer et ajouter un élève au groupe"><img src="../img/plus.svg" alt="nada" class="plus"></a></span>
+                <span><a href="creer_eleve_usr.ctrl.php" title="Créer et ajouter un élève au groupe"><img src="../img/plus.svg" alt="nada" class="plus"></a></span>
             </div></div> <!-- attention a l'espace  -->
 
             <!-- à générer avec PHP -->
             <div class="groupe">
                 <div>
-                <span>Groupe 2 <a href="" title="Éditer le groupe"> <img src="../img/pen.png" class="pen"> </a></span>
+                <span>Groupe 2 <a href="groupe_option.ctrl.php" title="Éditer le groupe"> <img src="../img/pen.png" class="pen"> </a></span>
                 <span class="dropdown">x membres <img src="../img/arrowdropdown.png" onclick="display(event)"></span> 
                 </div>
     
@@ -55,10 +57,10 @@
                     <hr>
                     <span>eleve 2 <a href=""> <img src="../img/engrenage.png" class="engrenage"> </a></span>
                     <hr>
-                    <span><a href="" title="Créer et ajouter un élève au groupe"><img src="../img/plus.svg" alt="nada" class="plus"></a></span>
+                    <span><a href="creer_eleve_usr.ctrl.php" title="Créer et ajouter un élève au groupe"><img src="../img/plus.svg" alt="nada" class="plus"></a></span>
                 </div></div> <!-- attention a l'espace  -->
                 <div class="flex">
-                    <button type="button">Créer un groupe</button>
+                <a href="creation_groupe.ctrl.php"><button type="button">Créer un groupe</button></a>
                 </div>
     </main>
     <script src="../js/main.js"></script>

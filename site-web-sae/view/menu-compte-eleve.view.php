@@ -1,9 +1,5 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
-<html lang="">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>Mon Compte</title>

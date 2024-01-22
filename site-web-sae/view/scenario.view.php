@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +10,15 @@
     <header>
         <div></div>
         <nav>
-            <a  href="#">Accueil</a>
-            <a class="selected" id="playbutton" href="#">Jouer !</a>
-            <a  href="#">Statistiques</a>
-            <a  href="">Groupes</a>
-            <a href="#">Mon compte</a>
+            <a  href="acceuil.ctrl.php">Accueil</a>
+            <a class="selected"id="playbutton">Jouer !</a>
+            <a href="statistiques.ctrl.php">Statistiques</a>
+            <a href="group_list.ctrl.php">Groupes</a>
+            <a href="menu-compte-prof.controler.php">Mon compte</a>
         </nav>
-        <form action=""><button type="submit">Se Déconnecter</button></form>
-    </header>
+        <form action="../logout.php" method="post">
+            <button type="submit" name="submit" value="logout">Logout</button>
+        </form>    </header>
     <main>
         <h1>Scénarios</h1>
         <div class="carousel border">

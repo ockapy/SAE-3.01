@@ -9,22 +9,19 @@ class DAO {
   // L'objet local PDO de la base de donnée
   private PDO $db;
 
-  // Le type, le chemin et le nom de la base de donnée
-  private string $database = 'sqlite:'.__DIR__.'/../data/bricomachin.db';
 
   // Constructeur chargé d'ouvrir la BD
   private function __construct() {
     try {
-      $this->db = new PDO($this->database);
-      //var_dump($this);
+      $this->db = new PDO("pgsql:host=192.168.14.233,dbname=seriousgame","webserver","webserverpass");
       if (!$this->db) {
-        throw new Exception("Impossible d'ouvrir ".$this->database);
+        throw new Exception("Impossible d'ouvrir la DB");
         ("Database error");
       }
       // Positionne PDO pour lancer les erreurs sous forme d'exeptions
       $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (PDOException $e) {
-      throw new Exception("Erreur PDO : ".$e->getMessage().' sur '.$this->database);
+      throw new Exception("Erreur PDO : ".$e->getMessage().' sur la DB');
     }
 
   }

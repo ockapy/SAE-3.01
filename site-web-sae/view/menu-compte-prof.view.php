@@ -1,9 +1,5 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
-<html lang="">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>Mon Compte</title>
@@ -15,13 +11,15 @@
     <header>
       <div></div>
         <nav>
-            <a href="#">Accueil</a>
-            <a id="playbutton" href="#">Jouer !</a>
-            <a href="#">Statistiques</a>
-            <a href="">Groupes</a>
-            <a class="selected" href="#">Mon compte</a>
+        <a  href="acceuil.ctrl.php">Accueil</a>
+            <a id="playbutton" href="scenario.ctrl.php">Jouer !</a>
+            <a href="statistiques.ctrl.php">Statistiques</a>
+            <a href="group_list.ctrl.php">Groupes</a>
+            <a class="selected">Mon compte</a>
         </nav>
-        <form action=""><button type="submit">Se Déconnecter</button></form>
+        <form action="../logout.php" method="post">
+            <button type="submit" name="submit" value="logout">Logout</button>
+        </form>
     </header>
     <main>
       <form action="" method="post">
