@@ -25,7 +25,7 @@
             <button onclick="rollcarousel('l')" type="button"><</button>
             <div class="carousel-el">
                 <!--  dynamique -->
-                <div class="slide "><img src="../img/galaxy.jpg" alt=""><div><h1>Perdu dans les étoiles</h1><p>le vaisseau rencontre des problèmes</p></div></div>
+                <div class="slide "><a href="../controler/new_compte_prof.ctrl.php"><img src="../img/galaxy.jpg" alt="" ></a><div><h1>Perdu dans les étoiles</h1><p>le vaisseau rencontre des problèmes</p></div></div>
                 <div class="slide "><img src="" alt=""><span>titre & description 2</span></div>
                 <div class="slide "><img src="" alt=""><span>titre & description 3</span></div>
             </div>

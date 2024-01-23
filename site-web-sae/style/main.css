@@ -252,9 +252,15 @@ button:hover {
     margin: 10px;
 }
 
-.slide img {    
-    height: 60%;
+.slide a img {    
+    height: 100%;
 }
+
+.slide a{
+    height: 60%;
+    width: 35%;
+}
+
 
 
 /* card  */

@@ -23,8 +23,8 @@
     <main>
         <h1>Mes Statistiques</h1>
         <section class="">
-            <div><span>Temps total passé sur le jeu </span><span></span></div>
-            <div><span>Temps moyen par scénario </span><span></span></div>
+            <div><span>Temps total passé sur le jeu : N/A</span><span></span></div>
+            <div><span>Temps moyen par scénario : N/A </span><span></span></div>
         </section>
 
         <div class="carousel border">
@@ -36,20 +36,20 @@
                         <h1>Perdu dans les étoiles</h1>
                         <div class="flex">
                             <ul>
-                                <li>temps pour salle 1 :</li>
-                                <li>temps pour salle 2 :</li>
+                                <li>temps pour salle 1 : N/A </li>
+                                <li>temps pour salle 2 : N/A </li>
                             </ul>
                             <ul>
-                                <li>temps pour salle 1 :</li>
-                                <li>temps pour salle 2 :</li>
+                                <li>temps pour salle 1 : N/A </li>
+                                <li>temps pour salle 2 : N/A </li>
                             </ul>
                         </div>
                         <div>
                             <ul>
-                                <li>nombre de tentatives :</li>
+                                <li>nombre de tentatives : N/A </li>
                                 
-                                <li>temps de complétion du scénario : </li>
-                                <li>meilleur temps :</li>
+                                <li>temps de complétion du scénario : N/A </li>
+                                <li>meilleur temps : N/A </li>
                             </ul>
                         </div>
                         
@@ -62,9 +62,9 @@
 
         <div class="cardcontainer">
             <!-- dynamique -->
-            <div class="card"><span>Taux de réussite : X </span></div>
+            <div class="card"><span>Taux de réussite : N/A </span></div>
             
-            <div class="card"><span>Progression total : X/X</span></div>
+            <div class="card"><span>Progression totale : N/A </span></div>
         </div>
 
     </main>  
